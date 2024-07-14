@@ -185,3 +185,45 @@ body {
   cursor: pointer;
   font-size: 12px;
 }
+
+/*fourth page*/
+
+.fourthpage {
+  display: flex;
+  padding: 100px 0;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.fourthpage .fourthpage-text {
+  max-width: 440px;
+  padding-left: 20px;
+}
+.fourthpage .fourthpage-image {
+  margin-left: 45px;
+}
+
+.fourthpage .fourthpage-image img {
+  border-radius: 10px;
+}
+.fourthpage .fourthpage-text h2 {
+  font-size: 35px;
+}
+
+.fourthpage .fourthpage-text p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.884);
+}
+
+.fourthpage .fourthpage-text button {
+  margin-top: 35px;
+  padding: 12px 25px;
+  background-color: rgb(42, 197, 145);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
