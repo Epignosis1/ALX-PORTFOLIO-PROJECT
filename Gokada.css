@@ -17,8 +17,6 @@ body {
 
 .horizontal-nav {
   display: flex;
-  width: 75%;
-  margin-left: 230px;
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +26,7 @@ body {
 .Gokada-logo {
   display: flex;
   align-items: center;
+  margin-left: 70px;
 }
 
 .Gokada-logo p {
@@ -41,9 +40,9 @@ body {
 }
 
 .nav-lists ul {
-  margin-right: 20px;
+  margin-right: 70px;
   display: flex;
-  padding: 10px 30px;
+  padding: 1px 40px;
 }
 
 .nav-lists ul li {
@@ -56,6 +55,7 @@ body {
   font-size: 11px;
   font-weight: bolder;
   color: gray;
+  margin-left: 30px;
   padding: 20px;
 }
 
@@ -226,4 +226,161 @@ body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 12px;
+}
+
+/*5th page*/
+
+.fifth-page {
+  width: 78%;
+  margin: 40px auto;
+}
+
+.fifth-page h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.fifth-page .fifth-div {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fifth-page .fifth-div .common-div {
+  margin-right: 30px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 15px;
+}
+.fifth-page .fifth-div .common-div img {
+  border-radius: 15px 15px 0 0;
+}
+.fifth-page .fifth-div .common-div .fifth-text {
+  padding: 15px;
+}
+
+.fifth-page .fifth-div .common-div .fifth-text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.699);
+  font-weight: bold;
+}
+.fifth-page .fifth-div .common-div .fifth-text p .green5 {
+  color: rgb(12, 214, 147);
+  font-weight: bolder;
+}
+
+.fifth-page .fifth-div .common-div .fifth-text .learn {
+  margin-top: 70px;
+  color: white;
+  font-size: 11px;
+}
+.fifth-page .fifth-div .common-div .fifth-text .learn2 {
+  margin-top: 45px;
+  color: white;
+  font-size: 11px;
+}
+
+/*Sixth-page*/
+
+.services {
+  width: 80%;
+  margin: 80px auto;
+}
+.services h2 {
+  font-size: 35px;
+  width: 60%;
+  margin-bottom: 60px;
+}
+
+.services .services-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.services .services-details .services-text {
+  width: 85%;
+  margin-bottom: 60px;
+}
+
+.services .services-details .services-text p {
+  font-size: 12.5px;
+  color: gray;
+  margin-top: 10px;
+}
+
+/*Seventhpage*/
+.seventhpage {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.seventhpage h2 {
+  font-size: 35px;
+  margin-bottom: 65px;
+}
+
+.seventhpage .customers-div {
+  display: flex;
+  width: 100%;
+}
+
+.seventhpage .customers-div .customer {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 24px;
+  width: 300px;
+  height: 180px;
+}
+
+.seventhpage .customers-div .customer p {
+  font-size: 14px;
+}
+.seventhpage .customers-div .customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seventhpage .customers-div .customer .imagetext {
+  display: flex;
+}
+.seventhpage .customers-div .customer .imagetext img {
+  border-radius: 30px;
+  text-align: center;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.seventhpage .customers-div .customer .imagetext .text p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.seventhpage .customers-div .customer .imagetext .text a {
+  font-size: 12px;
+  color: rgb(27, 212, 151);
+}
+
+.eightpage {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.eightpage h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.eightpage .eight-para {
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.eightpage .para2 {
+  margin-top: 50px;
+  font-size: 17px;
+  font-weight: 400;
 }
