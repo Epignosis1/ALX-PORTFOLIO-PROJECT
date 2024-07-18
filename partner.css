@@ -38,11 +38,6 @@ body {
 .Gokada-logo img {
   border-radius: 90px;
 }
-.nav-lists ul {
-  margin-right: 20px;
-  display: flex;
-  padding: 10px 30px;
-}
 
 .nav-lists ul {
   margin-right: 70px;
@@ -64,10 +59,15 @@ body {
   padding: 20px;
 }
 
+.nav-lists ul li a:hover {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+  padding-top: 20px;
+}
+
 .firstpage-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/ALX-PORTFOLIO-PROJECT/images/work-5382501_640.jpg");
-  background-size: cover;
+  background-color: rgb(17, 17, 17);
 }
 
 .firstpage-text {
@@ -75,7 +75,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding-top: 95px;
+  padding-bottom: 95px;
   text-align: center;
 }
 
@@ -99,38 +100,74 @@ body {
   font-size: 12px;
 }
 
-.business-div {
-  display: flex;
-  flex-direction: column;
+.partner-text {
   padding: 100px 0;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
-.business-text {
-  max-width: 590px;
+.partner-text h2 {
+  font-size: 35px;
+  width: 600px;
+}
+
+.secondpage {
+  display: flex;
+  padding: 100px 0;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.secondpage .secondpage-text {
+  max-width: 440px;
   padding-left: 20px;
 }
+.secondpage .secondpage-image {
+  margin-left: 45px;
+}
 
-.business-text h2 {
+.secondpage .secondpage-image img {
+  border-radius: 10px;
+}
+.secondpage .secondpage-text h2 {
   font-size: 35px;
 }
 
-.business-text p {
+.secondpage .secondpage-text p {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.884);
 }
 
-.business-text button {
+.ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  text-align: center;
+}
+
+.ready h2 {
+  font-size: 2.8rem;
+}
+
+.ready button {
   margin-top: 35px;
   padding: 12px 25px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(42, 197, 145);
   border: none;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   font-size: 12px;
-  color: rgb(42, 197, 145);
+}
+
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.144);
+  width: 100%;
+  margin: auto;
 }
 
 .delivery {
@@ -145,7 +182,8 @@ body {
 
 .delivery .delivery-details {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
 }
 .delivery .delivery-details .delivery-text {
   width: 85%;
@@ -153,45 +191,20 @@ body {
 }
 
 .delivery .delivery-details .delivery-text p {
-  font-size: 12.5px;
-  color: gray;
+  font-size: 14px;
+  text-align: center;
   margin-top: 10px;
+  font-weight: 800;
 }
 
 .delivery .delivery-details .delivery-text img {
   margin-bottom: 15px;
   width: 40px;
+  text-align: center;
+  margin-left: 100px;
 }
 
-.pilot {
-  display: flex;
-  padding: 80px 0;
-  width: 80%;
-  margin: auto;
-  align-items: center;
-}
-
-.pilot .secondpage-text {
-  padding-left: 20px;
-}
-.pilot .pilot-image {
-  margin-left: 45px;
-}
-
-.pilot .pilot-image img {
-  border-radius: 10px;
-}
-.pilot .pilot-text h2 {
-  font-size: 39px;
-}
-
-.pilot .pilot-text p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.884);
-}
-/*Third page*/
-.satisfaction {
+.fourthpage {
   display: flex;
   padding: 100px 0;
   width: 80%;
@@ -199,23 +212,40 @@ body {
   align-items: center;
 }
 
-.satisfaction .satisfaction-text {
+.fourthpage .fourthpage-text {
   max-width: 440px;
-  margin-left: 70px;
+  padding-left: 20px;
 }
-.satisfaction .satisfaction-text h2 {
+.fourthpage .fourthpage-image {
+  margin-left: 45px;
+}
+
+.fourthpage .fourthpage-image img {
+  border-radius: 10px;
+}
+.fourthpage .fourthpage-text h2 {
   font-size: 35px;
 }
 
-.satisfaction .satisfaction-text p {
+.fourthpage .fourthpage-text p {
   margin-top: 10px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.884);
 }
 
+.fourthpage .fourthpage-text button {
+  margin-top: 35px;
+  padding: 12px 25px;
+  background-color: rgb(42, 197, 145);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
 .background-footer {
   background-color: rgb(14, 13, 13);
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .background-footer .socials-logo {

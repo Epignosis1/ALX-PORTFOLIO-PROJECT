@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/939391a51a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!--Horizontal Nav-->
@@ -30,9 +34,14 @@
               <a href="/ALX-PORTFOLIO-PROJECT/Gokada.html">Home</a>
             </li>
             <li class="list">
+              <a href="/ALX-PORTFOLIO-PROJECT/Guide.html">Guide</a>
+            </li>
+            <li class="list">
               <a href="/ALX-PORTFOLIO-PROJECT/business.html">business</a>
             </li>
-            <li class="list"><a href="">About</a></li>
+            <li class="list">
+              <a href="/ALX-PORTFOLIO-PROJECT/about.html">About</a>
+            </li>
             <li class="list"><a href="">Login</a></li>
           </ul>
         </div>
@@ -45,7 +54,9 @@
         <p class="first-text">
           Quality Drivers. Great Prices Traacking. Stress-Free Deliveries
         </p>
-        <button>Let's Help you Deliver</button>
+        <button onclick="window.location.href = 'Guide.html';">
+          Let's Help you Deliver
+        </button>
         <p class="second-text">Currently Serving Lagos, Nigeria.</p>
         <div class="footer-text">
           <p class="third-text">Gokada in the press</p>
@@ -107,7 +118,9 @@
           With pilots and G-partners all over Lagos there will always be one
           nearby to pick up your parcels and more
         </p>
-        <button>Let's Help You Deliver</button>
+        <button onclick="window.location.href = 'Guide.html';">
+          Let's Help You Deliver
+        </button>
       </div>
     </div>
 
@@ -120,7 +133,9 @@
           capacity, we want you on the Gokada Team. Join the G-Partner team to
           increase your earnings
         </p>
-        <button>Partner with us!</button>
+        <button onclick="window.location.href = 'partner.html';">
+          Partner with us!
+        </button>
       </div>
       <div class="fourthpage-image">
         <img
@@ -146,8 +161,15 @@
           />
           <div class="fifth-text">
             <h3>Hungry?</h3>
-            <p>We've got you covered with<span class="green5"> GFood</span></p>
-            <p class="learn">Learn more</p>
+            <p>
+              We've got you covered with<span class="green5">
+                <a href="">GFood</a></span
+              >
+            </p>
+            <div class="learn-arrow">
+              <p class="learn">Learn more</p>
+              <i class="bigger fa-solid fa-arrow-right"></i>
+            </div>
           </div>
         </div>
 
@@ -162,9 +184,16 @@
             <h3>Running a Business?</h3>
             <p>
               Let's handle your deliveries with
-              <span class="green5">GBusiness</span>
+              <span class="green5"
+                ><a href="/ALX-PORTFOLIO-PROJECT/business.html"
+                  >GBusiness</a
+                ></span
+              >
             </p>
-            <p class="learn">Learn more</p>
+            <div class="learn-arrow">
+              <p class="learn">Learn more</p>
+              <i class="bigger fa-solid fa-arrow-right"></i>
+            </div>
           </div>
         </div>
 
@@ -178,10 +207,19 @@
           <div class="fifth-text">
             <h3>GPartner</h3>
             <p>
-              We've got <span class="green5">GPartners</span> to make sure we've
-              got more than enough Pilots to help you with your deliveries.
+              We've got
+              <span class="green5"
+                ><a href="/ALX-PORTFOLIO-PROJECT/partner.html"
+                  >GPartners</a
+                ></span
+              >
+              to make sure we've got more than enough Pilots to help you with
+              your deliveries.
             </p>
-            <p class="learn2">Learn more</p>
+            <div class="learn-arrow">
+              <p class="learn learn2">Learn more</p>
+              <i class="smaller fa-solid fa-arrow-right"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -317,19 +355,39 @@
       </p>
     </div>
 
-    <div class="socials-logo">
-      <div class="logo">
-        <img
-          src="/ALX-PORTFOLIO-PROJECT/images/download (3).jpeg"
-          alt=""
-          width="50px;"
-        />
-        <p>Gokada</p>
+    <div class="background-footer">
+      <div class="socials-logo">
+        <div class="logo">
+          <img
+            src="/ALX-PORTFOLIO-PROJECT/images/download (3).jpeg"
+            alt=""
+            width="50px;"
+          />
+          <p>Gokada</p>
+        </div>
+        <div class="socials">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
       </div>
+      <hr />
+      <div class="footer-details">
+        <div class="footer-links">
+          <a href="">Terms of Service</a>
+          <a href="">Cookie Policy</a>
+          <a href="">FAQ</a>
+          <a href="">Support</a>
+          <a href="">Careers</a>
+        </div>
 
-      <div class="socials">
-        <a href=""><i fa></i></a>
+        <div class="footer-copy">
+          <p>Copyright © 2024 Gokada. All rights reserved.</p>
+        </div>
       </div>
     </div>
+
+    <script></script>
   </body>
 </html>

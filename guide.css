@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-background {
+  background-color: rgb(31, 31, 31);
+}
+
+.horizontal-nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.Gokada-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.Gokada-logo p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+}
+
+.Gokada-logo img {
+  border-radius: 90px;
+}
+.nav-lists ul {
+  margin-right: 20px;
+  display: flex;
+  padding: 10px 30px;
+}
+
+.nav-lists ul {
+  margin-right: 70px;
+  display: flex;
+  padding: 1px 40px;
+}
+
+.nav-lists ul li {
+  list-style-type: none;
+}
+
+.nav-lists ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  font-weight: bolder;
+  color: gray;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.nav-lists ul li a:hover {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+  padding-top: 20px;
+}
+
+.text {
+  font-size: 30px;
+  padding: 100px;
+  margin-left: 80px;
+}
+
+.iframe {
+  padding-bottom: 60px;
+  margin-left: 150px;
+}
+
+.background-footer {
+  background-color: rgb(14, 13, 13);
+  margin-top: 80px;
+}
+
+.background-footer .socials-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo {
+  display: flex;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo img {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.background-footer .socials-logo .logo p {
+  font-size: 17px;
+  font-weight: 800;
+}
+.background-footer .socials-logo .socials a {
+  color: white;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.background-footer .socials-logo .socials a i {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.footer-details .footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.075);
+  width: 70%;
+  margin: auto;
+}
+
+.footer-details .footer-copy p {
+  font-size: 10px;
+  color: gray;
+}

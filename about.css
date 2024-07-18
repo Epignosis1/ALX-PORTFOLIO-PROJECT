@@ -72,7 +72,9 @@ body {
 }
 
 .firstpage-background {
-  background-color: rgb(17, 17, 17);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.021)),
+    url("/ALX-PORTFOLIO-PROJECT/images/technology-6701504_640.webp");
+  background-size: cover;
 }
 
 .firstpage-text {
@@ -93,4 +95,250 @@ body {
 .firstpage-text .first-text {
   margin-top: 8px;
   font-size: 17px;
+}
+
+.Gokada-about {
+  display: flex;
+  padding: 80px 0;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.Gokada-about .Gokada-text {
+  padding-left: 20px;
+  width: 400px;
+}
+.Gokada-about .bike1-image {
+  margin-left: 60px;
+}
+
+.Gokada-about .bike1-image img {
+  border-radius: 10px;
+  margin-left: 60px;
+}
+.Gokada-about .Gokada-text h2 {
+  font-size: 39px;
+}
+
+.Gokada-about .Gokada-text p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.884);
+}
+/*Third page*/
+.Gokada-do {
+  display: flex;
+  padding: 100px 0;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.Gokada-do .Gokada-text {
+  width: 400px;
+  margin-left: 70px;
+}
+.Gokada-do .Gokada-text h2 {
+  font-size: 35px;
+}
+
+.Gokada-do .Gokada-text p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.884);
+}
+
+.Gokada-growth {
+  display: flex;
+  padding: 80px 0;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.Gokada-growth .Gokada-text {
+  padding-left: 20px;
+  width: 400px;
+}
+.Gokada-growth .halfcircle {
+  margin-left: 60px;
+}
+
+.Gokada-growth .halfcircle img {
+  border-radius: 10px;
+  margin-left: 60px;
+}
+.Gokada-growth h2 {
+  font-size: 39px;
+}
+
+.Gokada-growth .Gokada-text p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.884);
+}
+
+.treep-div {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.treep-div .treep-h2 {
+  margin-right: 40px;
+}
+.treep-div .treep-h2 h2 {
+  font-size: 35px;
+  width: 350px;
+}
+.treep-div .treep-details {
+  display: flex;
+  position: relative;
+}
+.treep-div .treep-details .treep-partner {
+  background-color: rgba(27, 26, 26, 0.699);
+  padding: 12px;
+  width: 260px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.treep-div .treep-details .treep-partner .treep-logo-partner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.treep-div .treep-details .treep-partner .treep-logo-partner img {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.treep-div .treep-details .treep-partner .treep-logo-partner .text {
+  font-weight: bolder;
+}
+
+.treep-div .treep-details .treep-partner .partnership-details {
+  font-size: 13.5px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.treep-div .treep-details .treep-partner .learn1 {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.treep-partner .learn {
+  display: flex;
+  align-items: center;
+}
+
+.treep-partner .learn i {
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(54, 219, 164);
+  cursor: pointer;
+}
+.treep-partner a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.treep-div .treep-details .treep-partner .learn2 {
+  font-size: 13px;
+  margin-top: 35px;
+}
+
+.treep-div .treep-details .treep-alone {
+  position: absolute;
+  left: 280px;
+  top: 30px;
+}
+
+.bigger {
+  margin: 150px 0;
+  background: url(/ALX-PORTFOLIO-PROJECT/images/background2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 170px;
+}
+
+.bigger p {
+  font-size: 35px;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.background-footer {
+  background-color: rgb(14, 13, 13);
+  margin-top: 80px;
+}
+
+.background-footer .socials-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo {
+  display: flex;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo img {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.background-footer .socials-logo .logo p {
+  font-size: 17px;
+  font-weight: 800;
+}
+.background-footer .socials-logo .socials a {
+  color: white;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.background-footer .socials-logo .socials a i {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.footer-details .footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.075);
+  width: 70%;
+  margin: auto;
+}
+
+.footer-details .footer-copy p {
+  font-size: 10px;
+  color: gray;
 }

@@ -76,7 +76,7 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 95px;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -250,6 +250,7 @@ body {
   margin-right: 30px;
   background-color: rgb(15, 15, 15);
   border-radius: 15px;
+  position: relative;
 }
 .fifth-page .fifth-div .common-div img {
   border-radius: 15px 15px 0 0;
@@ -264,20 +265,21 @@ body {
   color: rgba(128, 128, 128, 0.699);
   font-weight: bold;
 }
-.fifth-page .fifth-div .common-div .fifth-text p .green5 {
+.fifth-page .fifth-div .common-div .fifth-text p .green5 a {
   color: rgb(12, 214, 147);
-  font-weight: bolder;
+  text-decoration: none;
 }
 
 .fifth-page .fifth-div .common-div .fifth-text .learn {
-  margin-top: 70px;
+  padding-top: 50px;
   color: white;
   font-size: 11px;
 }
 .fifth-page .fifth-div .common-div .fifth-text .learn2 {
-  margin-top: 45px;
+  position: absolute;
   color: white;
   font-size: 11px;
+  bottom: 15px;
 }
 
 /*Sixth-page*/
@@ -383,4 +385,90 @@ body {
   margin-top: 50px;
   font-size: 17px;
   font-weight: 400;
+}
+
+.background-footer {
+  background-color: rgb(14, 13, 13);
+  margin-top: 80px;
+}
+
+.background-footer .socials-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo {
+  display: flex;
+  align-items: center;
+}
+
+.background-footer .socials-logo .logo img {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.background-footer .socials-logo .logo p {
+  font-size: 17px;
+  font-weight: 800;
+}
+.background-footer .socials-logo .socials a {
+  color: white;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.background-footer .socials-logo .socials a i {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.footer-details .footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.075);
+  width: 70%;
+  margin: auto;
+}
+
+.footer-details .footer-copy p {
+  font-size: 10px;
+  color: gray;
+}
+
+.learn-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.learn-arrow .bigger {
+  color: rgb(27, 212, 151);
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.learn-arrow .smaller {
+  color: rgb(27, 212, 151);
+  margin-top: 40x;
+  margin-left: 10px;
+  font-size: 14px;
 }
