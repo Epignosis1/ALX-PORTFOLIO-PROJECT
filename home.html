@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/939391a51a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/ALX-PORTFOLIO-PROJECT/home.css" />
+  </head>
+  <body>
+    <div class="horizontal-nav">
+      <div class="Gokada-logo">
+        <img
+          src="/ALX-PORTFOLIO-PROJECT/images/download (3).jpeg"
+          alt="Gokada logo"
+          width="50"
+        />
+      </div>
+      <p>Business</p>
+    </div>
+
+    <div class="side-nav">
+      <div class="nav1" onclick="hidehome()">
+        <i class="fa-solid fa-house"></i>
+        <a href="#">Home</a>
+      </div>
+      <div class="nav1" onclick="hideorder()">
+        <i class="fa-brands fa-first-order"></i>
+        <a href="#">Orders</a>
+      </div>
+
+      <div class="nav1" onclick="hidesettings()">
+        <i class="fa-solid fa-gear"></i>
+        <a href="#">Settings</a>
+      </div>
+
+      <div class="nav1" onclick="hidewallet()">
+        <i class="fa-solid fa-wallet"></i>
+        <a href="#">Wallet</a>
+      </div>
+      <div class="nav1">
+        <i class="fa-solid fa-phone"></i>
+        <a href="#">Support</a>
+      </div>
+
+      <div class="nav1">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <a
+          href="/ALX-PORTFOLIO-PROJECT/Login.html"
+          style="color: rgba(255, 0, 0, 0.712)"
+          >Logout</a
+        >
+      </div>
+    </div>
+
+    <div class="hide-home" id="hide">
+      <div class="home-content">
+        <h1>Welcome back, Victor Omelebele</h1>
+
+        <div class="order-div">
+          <div class="order order1" style="border-radius: 10px 0 0 10px">
+            <p class="order-text">
+              Total Fess Paid<br /><span class="order-num">0$</span>
+            </p>
+          </div>
+          <div class="order">
+            <p class="order-text">
+              Completed Orders <br /><span class="order-num">0$</span>
+            </p>
+          </div>
+          <div class="order">
+            <p class="order-text">
+              Active Orders<br />
+              <span class="order-num">0</span>
+            </p>
+          </div>
+          <div class="order" style="border-radius: 0 10px 10px 0">
+            <p class="order-text">
+              Average Order Price<br /><span class="order-num">0</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="big-div">
+        <div class="sub-div download">
+          <h2>Download Order Template</h2>
+          <p>Please download the file below to obtain a bulk-order template</p>
+          <button class="btn1">
+            <a
+              href="/ALX-PORTFOLIO-PROJECT/bulk_upload_template (1).csv"
+              download="BULK.csv"
+              >Download Template</a
+            >
+          </button>
+        </div>
+
+        <div class="sub-div bulk-upload">
+          <h2>Bulk Upload</h2>
+          <div class="upload">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>
+              <span style="color: blue">Click to upload</span> or drag and drop
+            </p>
+          </div>
+          <button class="btn2"><a href="">upload</a></button>
+        </div>
+      </div>
+
+      <div class="lasth2">
+        <h2>Scheduled Orders</h2>
+      </div>
+    </div>
+
+    <!--Setting page-->
+    <div class="settings" id="hide-settings">
+      <h2>Settings</h2>
+      <p class="store">Store details</p>
+      <hr />
+      <p class="notice">
+        <span class="red" style="color: rgb(95, 7, 7)">Notice</span>: A pickup
+        address must be selcted to create orders
+      </p>
+      <form action="">
+        <div class="form1">
+          <label for="name">Business Name</label>
+          <input type="text" id="name" placeholder="Your Business Name" />
+        </div>
+        <div class="form1">
+          <label for="ID">Business ID</label>
+          <input type="text" id="ID" placeholder="GOB-1210" />
+        </div>
+        <div class="form1">
+          <label for="email">Business Email</label>
+          <input type="text" id="email" placeholder="email" />
+        </div>
+        <div class="form1">
+          <label for="number">Phone Number</label>
+          <input type="text" id="number" placeholder="Business Phone Number" />
+        </div>
+        <div class="form1 form2">
+          <label for="address">Business Address</label>
+          <input type="text" id="number" />
+        </div>
+      </form>
+      <div class="setting-btn">
+        <button>Save changes</button>
+      </div>
+    </div>
+
+    <!--Wallet-->
+
+    <div class="wallet" id="hide-wallet">
+      <h2>Wallet</h2>
+      <p class="notice">
+        <span class="red" style="color: rgb(95, 7, 7)">Notice</span>: A pickup
+        address must be selcted to create orders
+      </p>
+      <p class="store">Wallet Ballance</p>
+
+      <div class="topup">
+        <p>$0.00</p>
+        <button>Top up</button>
+      </div>
+      <hr />
+      <div class="transactions">
+        <h2>Wallet Transacations</h2>
+        <hr />
+
+        <div class="transaction-details">
+          <p>DATE</p>
+          <p>TYPE</p>
+          <p>AMOUNT</p>
+          <p>DESCRIPTION</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Order-->
+    <div class="second-order1" id="hide-orders">
+      <div class="second-order-btn">
+        <button>
+          <a href="/ALX-PORTFOLIO-PROJECT/home.html/#hide-wallet">
+            + New Order</a
+          >
+        </button>
+      </div>
+
+      <h2>Orders</h2>
+      <div class="second-order-list">
+        <p>New Order</p>
+        <p>Scheduled</p>
+        <p>Active</p>
+        <p>Completed</p>
+        <p style="color: white">
+          kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+        </p>
+      </div>
+
+      <div class="second-order-details">
+        <form action="">
+          <input type="checkbox" />
+        </form>
+        <p>Rider</p>
+        <p>Name</p>
+        <p>Phone</p>
+        <p>Dropofff Address</p>
+        <p class="delivery">Delivery Price</p>
+      </div>
+    </div>
+
+    <script>
+      function hidehome() {
+        const hidehome = document.getElementById("hide");
+        const hidesettings = document.getElementById("hide-settings");
+        const hidewallet = document.getElementById("hide-wallet");
+        const hideorder = document.getElementById("hide-orders");
+        // Toggle display for hide-home
+        if (hidehome.style.display === "none") {
+          hidehome.style.display = "block";
+        }
+
+        // Ensure hide-settings is hidden when clicking Home
+        hidesettings.style.display = "none";
+        hidewallet.style.display = "none";
+        hideorder.style.display = "none";
+      }
+
+      function hideorder() {
+        const hidewallet = document.getElementById("hide-wallet");
+        const hidehome = document.getElementById("hide");
+        const hidesettings = document.getElementById("hide-settings");
+        const hideorder = document.getElementById("hide-orders");
+        // Toggle display for hide-settings
+        if (hideorder.style.display === "none") {
+          hideorder.style.display = "block";
+        }
+
+        // Ensure hide-home is hidden when clicking Settings
+        hidehome.style.display = "none";
+        hidesettings.style.display = "none";
+        hidewallet.style.display = "none";
+      }
+
+      function hidesettings() {
+        const hidehome = document.getElementById("hide");
+        const hidewallet = document.getElementById("hide-wallet");
+        const hidesettings = document.getElementById("hide-settings");
+        const hideorder = document.getElementById("hide-orders");
+        // Toggle display for hide-settings
+        if (hidesettings.style.display === "none") {
+          hidesettings.style.display = "block";
+        }
+
+        // Ensure hide-home is hidden when clicking Settings
+        hidehome.style.display = "none";
+        hidewallet.style.display = "none";
+        hideorder.style.display = "none";
+      }
+
+      function hidewallet() {
+        const hidewallet = document.getElementById("hide-wallet");
+        const hidehome = document.getElementById("hide");
+        const hidesettings = document.getElementById("hide-settings");
+        const hideorder = document.getElementById("hide-orders");
+        // Toggle display for hide-settings
+        if (hidewallet.style.display === "none") {
+          hidewallet.style.display = "block";
+        }
+
+        // Ensure hide-home is hidden when clicking Settings
+        hidehome.style.display = "none";
+        hidesettings.style.display = "none";
+        hideorder.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

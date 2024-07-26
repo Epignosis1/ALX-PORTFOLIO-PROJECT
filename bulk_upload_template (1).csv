@@ -1,0 +1,2 @@
+pickup_address,pickup_latitude,pickup_longitude,pickup_name,pickup_phone,pickup_email,delivery_address,delivery_latitude,delivery_longitude,delivery_name,delivery_phone,delivery_email,description
+"11 Tinubu Close, Lagos, Nigeria",6.5441715,3.3634108,John Kweke,2342126996045,hello@gokada.ng,"Vita Towers, Kofo Abayomi Street, Lagos, Nigeria",6.435275500000000,3.4147874,Cassie P,2342126996044,support@gokada.ng,This is a bulk upload order

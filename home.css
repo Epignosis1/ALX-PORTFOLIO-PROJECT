@@ -1,0 +1,352 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.horizontal-nav {
+  display: flex;
+  color: black;
+  align-items: center;
+  padding: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.Gokada-logo img {
+  border-radius: 90px;
+  background-color: white;
+}
+
+.horizontal-nav p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+/* Styling for the horizontal navigation */
+/* Styling for the vertical side navigation */
+.side-nav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 30px;
+  color: black;
+  margin-left: 20px;
+}
+
+.side-nav .nav1 {
+  display: flex;
+  padding: 10px 15px;
+  text-decoration: none;
+  align-items: center;
+}
+.side-nav .nav1:hover {
+  color: gray;
+}
+
+.side-nav .nav1 a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 13px;
+}
+
+.side-nav .nav1 a:hover {
+  color: gray;
+}
+
+.home-content {
+  margin-left: 200px;
+}
+
+.order-div {
+  display: flex;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.order {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+
+  padding: 10px 0;
+  padding-left: 20px;
+}
+
+.order-div .order .order-text {
+  font-size: 14px;
+}
+.order-div .order .order-num {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.big-div {
+  display: flex;
+  margin-left: 200px;
+}
+.sub-div {
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 340px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sub-div h2 {
+  font-size: 15px;
+}
+
+.sub-div p {
+  font-size: 14px;
+}
+.bulk-upload .upload {
+  border: 1px dashed blue;
+  padding: 19px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bulk-upload .upload i {
+  font-size: 25px;
+  color: blue;
+}
+.bulk-upload .upload p {
+  font-size: 12px;
+}
+.sub-div button {
+  width: 100%;
+  background-color: #09c788;
+  padding: 8px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+.sub-div button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.sub-div .btn1 {
+  margin-top: 65px;
+}
+
+.lasth2 {
+  font-size: 15px;
+  margin-left: 200px;
+}
+
+/*Settings*/
+.settings {
+  margin-left: 200px;
+  margin-top: 30px;
+  display: none;
+  width: 600px;
+}
+
+.settings h2 {
+  font-size: 25px;
+}
+
+.settings .store {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.settings .notice {
+  background-color: rgba(233, 64, 64, 0.404);
+  width: 560px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.settings .notice .red {
+  font-weight: 600;
+}
+.settings form {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
+.settings form .form1 {
+  margin-top: 5px;
+}
+
+.settings form .form1 label {
+  font-size: 12px;
+}
+.settings form .form1 input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin-top: 3px;
+  background-color: rgba(245, 245, 245, 0.247);
+
+  border: 1px solid rgba(0, 0, 255, 0.295);
+  border-radius: 10px;
+}
+
+.settings form .form2 input {
+  width: 184%;
+}
+
+.setting-btn button {
+  width: 200px;
+  background-color: #09c788;
+  padding: 8px 0;
+  margin-top: 40px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.wallet {
+  margin-left: 200px;
+  margin-top: 30px;
+  width: 600px;
+  display: none;
+}
+
+.settings h2 {
+  font-size: 25px;
+}
+
+.wallet .store {
+  font-size: 12px;
+
+  color: gray;
+  font-weight: 700;
+}
+
+.wallet .notice {
+  background-color: rgba(233, 64, 64, 0.404);
+  width: 830px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.settings .notice .red {
+  font-weight: 800;
+}
+
+.topup {
+  display: flex;
+  align-items: center;
+}
+.topup p {
+  font-size: 23px;
+  font-weight: 7s00;
+}
+.topup button {
+  background-color: #09c788;
+  padding: 8px 0;
+  width: 80px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.wallet .transactions {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.wallet .transactions h2 {
+  font-size: 20px;
+}
+hr {
+  width: 800px;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+}
+.wallet .transactions .transaction-details {
+  display: flex;
+  font-size: 10px;
+  width: 820px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+  margin-top: 40px;
+  width: 450px;
+}
+.wallet .transactions .transaction-details p {
+  padding-right: 70px;
+  color: rgba(0, 0, 0, 0.473);
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.second-order1 {
+  margin-left: 220px;
+  margin-top: 30px;
+  display: none;
+}
+
+.second-order-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 250px;
+  cursor: pointer;
+}
+
+.second-order-list {
+  display: flex;
+  font-size: 12px;
+  width: 820px;
+}
+.second-order-list p {
+  padding-right: 13px;
+  color: rgba(0, 0, 0, 0.473);
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+  cursor: pointer;
+}
+
+.second-order-list p:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.404);
+}
+
+.second-order-btn button {
+  padding: 10px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+}
+
+.second-order-details {
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  width: 805px;
+  margin-top: 10px;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.541);
+  border-bottom-width: 3px;
+  border-radius: 5px;
+}
+
+.second-order-details .delivery {
+  margin-left: 100px;
+}
+
+.second-order-details p {
+  padding-left: 60px;
+  font-size: 10px;
+  font-weight: 600;
+}

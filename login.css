@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.horizontal-nav {
+  display: flex;
+  color: black;
+  align-items: center;
+  padding: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.Gokada-logo img {
+  border-radius: 90px;
+  background-color: white;
+}
+
+.horizontal-nav p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+.login .login-text {
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.login .login-text h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.login .login-text p {
+  font-size: 11px;
+  color: rgba(41, 40, 40, 0.623);
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.login .login-form {
+  margin-left: 25px;
+}
+
+.login .login-form label {
+  font-size: 11px;
+
+  color: rgba(41, 40, 40, 0.685);
+
+  font-weight: 600;
+}
+
+.login .login-form input {
+  padding: 9px;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  margin-bottom: 10px;
+}
+
+.login .login-form input[placeholder] {
+  background-color: rgba(194, 191, 191, 0.089);
+  font-size: 12px;
+}
+.login .login-form .forgot {
+  text-align: center;
+}
+.login .login-form .forgot a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 15px 0;
+  display: inline-block;
+  color: rgba(0, 0, 255, 0.719);
+  font-weight: bold;
+}
+
+.login .login-form .btn button {
+  padding: 9px;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  margin-bottom: 8px;
+  background-color: rgb(13, 204, 140);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.login .login-form p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login .login-form .account {
+  font-size: 13px;
+}
+
+.login .login-form .account a {
+  text-decoration: none;
+  color: blue;
+}
